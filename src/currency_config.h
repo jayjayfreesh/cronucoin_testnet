@@ -71,11 +71,11 @@
 
 
 #ifndef TESTNET
-#define P2P_DEFAULT_PORT                                10101
-#define RPC_DEFAULT_PORT                                10102
+#define P2P_DEFAULT_PORT                                17542
+#define RPC_DEFAULT_PORT                                18752
 #else 
-#define P2P_DEFAULT_PORT                                50101
-#define RPC_DEFAULT_PORT                                50102
+#define P2P_DEFAULT_PORT                                50102
+#define RPC_DEFAULT_PORT                                50103
 #endif
 
 #define COMMAND_RPC_GET_BLOCKS_FAST_MAX_COUNT           1000
