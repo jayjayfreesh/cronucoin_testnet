@@ -46,7 +46,7 @@
 #define ORPHANED_BLOCKS_MAX_COUNT                       100
 
 
-#define DIFFICULTY_TARGET                               120 // seconds
+#define DIFFICULTY_TARGET                               60 // seconds
 #define DIFFICULTY_WINDOW                               720 // blocks
 #define DIFFICULTY_LAG                                  15  // !!!
 #define DIFFICULTY_CUT                                  60  // timestamps to cut after sorting
@@ -120,8 +120,8 @@
 
 #define ALLOW_DEBUG_COMMANDS
 
-#define CURRENCY_NAME_BASE                              "Boolberry"
-#define CURRENCY_NAME_SHORT_BASE                        "boolb"
+#define CURRENCY_NAME_BASE                              "cronucoin"
+#define CURRENCY_NAME_SHORT_BASE                        "cronu"
 #ifndef TESTNET
 #define CURRENCY_NAME                                   CURRENCY_NAME_BASE
 #define CURRENCY_NAME_SHORT                             CURRENCY_NAME_SHORT_BASE
